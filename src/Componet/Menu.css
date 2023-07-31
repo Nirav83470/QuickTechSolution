@@ -22,7 +22,32 @@ a{
 
 .heders_back{
     background: linear-gradient( 67.94deg, #030b20 -2.93%, #0d0d2a 44.88%, #230d2b 99.07%, #d12bec 148.49%);
-    height: 1200px;
+    height: 1050px;
+}
+
+.offcanvas{
+    background: linear-gradient( 67.94deg, #030b20 -2.93%, #0d0d2a 44.88%, #230d2b 99.07%, #d12bec 148.49%);
+    color: #ffffff !important;
+}
+
+/* .btn-close{
+    width: 44px !important;
+    height: 35px !important;
+    padding: 7px 12px 10px 12px !important;
+    margin-bottom: -15px !important;
+    border-radius: 0.25em !important;
+    border: 1.5px solid #d12bec !important;
+    color: #ffffff !important;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%) !important;
+} */
+
+.btn-close {
+  
+    background-color: #a1acc7 !important;
+}
+
+.dropdown a{
+    color: #ffffff !important;
 }
 
 .navbar_main a{
@@ -80,6 +105,13 @@ Nav a:hover a{
 .img_banner img{
     width: 100%;
 }
+
+
+.offcanvas_menu{
+    display: none;
+}
+
+
 /* banner Con Css End */
 
 /* ============================  banner Box Start Conten  ===================================  */
@@ -196,6 +228,247 @@ Nav a:hover a{
 }
 /* ============================  banner Box End Conten  ===================================  */
 
+/* ============================  experince strat Conten  ===================================  */
+
+.about {
+    margin: 100px 0;
+    position: relative;
+}
+
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+
+.about h5 {
+    color: #d12bec;
+}
+
+.about h2 {
+    color: #000000;
+    margin: 10px 0;
+}
+
+.about p {
+    color: #000000;
+    padding-right: 30px;
+}
+
+.about h3 {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.about a {
+    color: #d12bec;
+    padding: 16px 38px 16px 38px ;
+}
+
+
+.about .col-lg-3 h2 {
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.btn_hover {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid #d12bec;
+    color: #ffffff;
+    z-index: 1;
+}
+
+
+.btn_hover:hover::before {
+    width: 100%;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+
+
+
+
+.btn_hover:hover {
+    color: #ffffff !important;
+}
+.about a {
+    color: #d12bec;
+}
+a:hover {
+    color: #0a58ca;
+}
+.btn_hover {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid #d12bec;
+    color: #ffffff;
+    z-index: 1;
+}
+
+
+
+
+.btn_hover:hover::before {
+    width: 100%;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+.btn_hover::before {
+    border-radius: 50px 50px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.btn_hover:hover::after {
+    width: 100%;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+
+
+
+.btn_hover:hover {
+    color: #ffffff !important;
+}
+.about a {
+    color: #d12bec;
+}
+a:hover {
+    color: #0a58ca;
+}
+.btn_hover {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid #d12bec;
+    color: #ffffff;
+    z-index: 1;
+}
+
+    
+.btn_hover:hover::before {
+    width: 100%;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+.btn_hover::before {
+    border-radius: 50px 50px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.btn_hover:hover::after {
+    width: 100%;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+.btn_hover::after {
+    border-radius: 0 0 50px 50px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+.btn_hover:hover {
+    color: #ffffff !important;
+}
+
+.btn_hover2 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid #d12bec;
+    color: #ffffff !important;
+    z-index: 1;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+
+.btn_hover2:hover {
+    color: #d12bec !important;
+}
+
+.btn_hover2::before {
+    border-radius: 50px 50px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: #ffffff;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.btn_hover2:hover::before {
+    width: 100%;
+    background: #ffffff;
+}
+
+.btn_hover2::after {
+    border-radius: 0 0 50px 50px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: #ffffff;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+ 
+.btn_hover2:hover::after {
+    width: 100%;
+    background: #ffffff;
+}
+
+.ab-image {
+    width: 100%;
+}
+
+
+
+/* ============================  experince end Conten  ===================================  */
+
+
+/* =================================    Our clients start ========================      */
+
+.client {
+    margin-bottom: 100px;
+}
+
+.client h5 {
+    color: #d12bec;
+}
+
+
+
+/* =================================    Our clients end ========================      */
 
 
 
@@ -205,5 +478,48 @@ Nav a:hover a{
     .banner{
         text-align: center;
         padding: 40px !important;
+    }
+  }
+
+
+  @media screen and (max-width: 575px) {
+    .heders_back{
+        height: 1600px !important;
+    }
+
+    .menu_main{
+        display: none !important;
+    }
+
+    .heders_crical_1{
+        position: absolute;
+        left: 10px;
+    }
+
+    .offcanvas_menu{
+        display: block;
+    }
+
+    .banner_card .container div{
+        padding: 16px !important;
+    }
+
+    .dropdown-menu{
+          border: none !important;
+          background: linear-gradient( 67.94deg, #030b20 -2.93%, #0d0d2a 44.88%, #230d2b 99.07%, #d12bec 148.49%);
+     
+    }   
+
+    .navbar-toggler{
+    
+        background : linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%) !important;
+    }
+
+    .dropdown a{
+        color: #ffffff !important;
+    }
+
+    .navbar-toggler-icon{
+       background-image: url('./img/menuico.png') !important;
     }
   }
