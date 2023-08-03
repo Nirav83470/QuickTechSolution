@@ -472,6 +472,61 @@ a:hover {
 
 
 
+/* =================================  Trusted Website Start ========================  */
+
+
+
+
+
+.choose {
+    background: linear-gradient( 67.94deg, #030b20 -2.93%, #0d0d2a 44.88%, #230d2b 99.07%, #d12bec 148.49%);
+    padding: 100px 0;
+    position: relative;
+}
+
+
+.btn_hover{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid #d12bec;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.btn_hover::after {
+    border-radius: 0 0 50px 50px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+
+.btn_hover::before {
+    border-radius: 50px 50px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+/* =================================  Trusted Website Start ========================  */
 
 
 @media screen and (max-width: 768px) {

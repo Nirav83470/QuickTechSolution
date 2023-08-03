@@ -2,7 +2,7 @@ import Menu from "./Menu";
 import crical from "./img/header_cercle.png";
 import imgpngone from "./img/imgdata1.png";
 import bannercards1 from "./img/bannercard1.png";
-import { AiOutlineRight } from "react-icons/ai"; 
+import { AiOutlineRight } from "react-icons/ai";
 import cilents from "./img/client1.svg";
 import "./Menu.css";
 import { Button } from "react-bootstrap";
@@ -151,30 +151,51 @@ const Home = () => {
 
       {/* =========================  conten exp  end   =========================== */}
       {/* =========================  conten Our clients start =========================== */}
-                <section className="client">
-                          <div className="container text-center">
-                                <h5>Our client</h5>
-                                <h2>We help companies around the world</h2>
-                          </div>
-                          <div className="d-flex justify-content-md-evenly justify-content-sm-center justify-content-center align-items-center flex-wrap gap-4">
-                                <figure>
-                                      <img src={cilents}></img>
-                                </figure>
-                                <figure>
-                                      <img src={cilents}></img>
-                                </figure>
-                                <figure>
-                                      <img src={cilents}></img>
-                                </figure>
-                                <figure>
-                                      <img src={cilents}></img>
-                                </figure>
-                                <figure>
-                                      <img src={cilents}></img>
-                                </figure>
-                          </div>
-                </section>
-      {/* =========================  conten Our clients start =========================== */}
+      <section className="client">
+        <div className="container text-center">
+          <h5>Our client</h5>
+          <h2>We help companies around the world</h2>
+        </div>
+        <div className="d-flex justify-content-md-evenly justify-content-sm-center justify-content-center align-items-center flex-wrap gap-4">
+          <figure>
+            <img src={cilents}></img>
+          </figure>
+          <figure>
+            <img src={cilents}></img>
+          </figure>
+          <figure>
+            <img src={cilents}></img>
+          </figure>
+          <figure>
+            <img src={cilents}></img>
+          </figure>
+          <figure>
+            <img src={cilents}></img>
+          </figure>
+        </div>
+      </section>
+      {/* =========================  conten Our clients end =========================== */}
+
+      {/*=========================== Trusted Website Start ============================= */}
+
+      <section className="choose">
+        <div className="container">
+          <div className="row d-flex  align-items-center">
+            <div className="col-lg-6 col-md-6 d-flex flex-column align-items-md-start align-items-sm-center align-items-center text-md-start text-sm-center text-center gap-3">
+              <h5>Why choose us</h5>
+              <h2>Trusted protection for your website begins here</h2>
+              <p class="pe-lg-5 pe-md-4 pe-sm-0 pe-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboren amet elit.
+              </p>
+              <a href="#" class="btn_hover mt-4">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*=========================== Trusted Website End ============================= */}
+
+        <h1>123456789987654321</h1>
 
     </>
   );
