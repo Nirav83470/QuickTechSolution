@@ -345,7 +345,7 @@ a:hover {
 a:hover {
     color: #0a58ca;
 }
-.btn_hover {
+/* .btn_hover {
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -353,7 +353,7 @@ a:hover {
     border: 1.5px solid #d12bec;
     color: #ffffff;
     z-index: 1;
-}
+} */
 
     
 .btn_hover:hover::before {
@@ -485,7 +485,7 @@ a:hover {
 }
 
 
-.btn_hover{
+/* .btn_hover{
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -493,9 +493,9 @@ a:hover {
     border: 1.5px solid #d12bec;
     color: #ffffff;
     z-index: 1;
-}
+} */
 
-.btn_hover::after {
+/* .btn_hover::after {
     border-radius: 0 0 50px 50px;
     content: "";
     position: absolute;
@@ -506,10 +506,10 @@ a:hover {
     z-index: -1;
     bottom: 0;
     right: 0;
-}
+} */
 
 
-.btn_hover::before {
+/* .btn_hover::before {
     border-radius: 50px 50px 0 0;
     content: "";
     position: absolute;
@@ -520,13 +520,485 @@ a:hover {
     z-index: -1;
     top: 0;
     left: 0;
+} */
+
+
+
+a{
+    padding: 16px 38px 16px 38px ;
+}
+
+
+.choose_us{
+    color: #d12bec;
+}
+
+
+.choose_up{
+    color: #ffffff;
+}
+
+.chose-cercle1{
+    position: absolute;
+    width: 160px;
+    bottom: 97px;
+    left: 12px;
 }
 
 
 
 
+.chose-cercle2 {
+    position: absolute;
+    width: 160px;
+    right: 39px;
+    top: 263px;
+}
+
+.choose2 {
+    background-color: #5c5cce85;
+    border-radius: 70px;
+    padding: 66px 36px;
+    width: 100%;
+}
+
+.choose h3{
+    color: #ffffff;
+}
+
+.choose p {
+    color: #ffffff;
+}
 
 /* =================================  Trusted Website Start ========================  */
+
+
+/* =================================  Service Start ========================  */
+
+.services {
+    margin: 100px 0;
+    position: relative;
+}
+
+.services h5 {
+    color: #d12bec;
+}
+
+.services h2 {
+    color: #000000;
+    margin: 10px 0;
+    padding: 0 290px;
+}
+
+
+.services p {
+    color: #272727;
+}
+
+
+.service_card {
+    background: #ffffff;
+    border-radius: 60px;
+    z-index: 1;
+    color: #000000;
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 45px 36px 25px 36px;
+    width: 100%;
+    border: 1.5px solid rgba(172, 172, 172, 1.25);
+    gap: 20px;
+}
+
+.service_card:hover {
+    box-shadow: 0px 6px 30px rgba(172, 172, 172, 0.3);
+}
+
+.service_card:hover.service_card h4 {
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.service_card:hover.service_card p {
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.service_card::before {
+    border-radius: 60px 60px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: #d12bec;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.service_card:hover::before {
+    width: 100%;
+    background: #d12bec;
+}
+
+.service_card::after {
+    border-radius: 0 0 60px 60px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: #d12bec;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+.service_card:hover::after {
+    width: 100%;
+    background: #d12bec;
+}
+
+.service_card img {
+    width: 85%;
+    transition: all 0.3s ease;
+}
+
+.service_card img:hover {
+    position: relative;
+    animation: icon 0.5s 2;
+}
+
+.service_card:hover.service_card img {
+    filter: brightness(0) invert(1);
+}
+
+.service_card a i {
+    font-size: 15px;
+}
+
+.service_card a {
+    transform: scale(0);
+    margin-top: -2px;
+    margin-bottom: -43px;
+    color: #ffffff;
+    padding: 13px 19px !important;
+    border-radius: 50%;
+    border: 1.5px solid #d12bec;
+}
+
+.service_card:hover.service_card a {
+    transform: scale(1);
+}
+
+.service-cercle1 {
+    position: absolute;
+    width: 220px;
+    left: -103px;
+    bottom: 185px;
+}
+
+.service-cercle2 {
+    position: absolute;
+    width: 300px;
+    right: 0;
+    bottom: 300px;
+}
+
+.service-cercle3 {
+    position: absolute;
+    width: 300px;
+    left: 54%;
+    top: 72px;
+}
+
+.view_service {
+    color: #d12bec !important;
+}
+
+.view_service:hover {
+    color: #ffffff !important;
+}
+/* =================================  Service End ========================  */
+
+
+/* ================================ How Work Strat ================================= */
+
+.work {
+    margin: 100px 0;
+}
+
+.how-we-work {
+    width: 90%;
+    border-radius: 45px;
+    object-fit: cover;
+}
+
+.work a {
+    position: absolute;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    border-radius: 26px;
+    padding: 30px 44px !important;
+    bottom: -42px;
+    right: 0;
+}
+
+.work i {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 2px 8px 8px 10px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.work h5 {
+    color: #d12bec;
+}
+
+.work h2 {
+    color: #000000;
+    margin: 10px 0;
+}
+
+.work p {
+    color: #000000;
+}
+
+.work .mt-4 {
+    background: #ffffff;
+    border: 1.5px solid #acacac;
+    border-radius: 40px;
+    padding: 35px 27px;
+    position: relative;
+    z-index: 1;
+}
+
+.work .mt-4:hover {
+    box-shadow: 0px 6px 30px rgba(172, 172, 172, 0.3);
+}
+
+.work h3 {
+    color: #000000;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.work .mt-4:hover h3 {
+    color: #ffffff;
+}
+
+.work .mt-4:hover p {
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.work .mt-4::before {
+    border-radius: 40px 40px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: #d12bec;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.work .mt-4:hover::before {
+    width: 100%;
+    background: #d12bec;
+}
+
+.work .mt-4::after {
+    border-radius: 0 0 40px 40px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: #d12bec;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+.work .mt-4:hover::after {
+    width: 100%;
+    background: #d12bec;
+}
+
+.work .mt-4 h2 {
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.work .mt-4:hover h2 {
+    -webkit-text-fill-color: #ffffff;
+}
+
+.work-cercle1 {
+    position: absolute;
+    width: 244px;
+    left: 33%;
+    top: 0;
+    z-index: -1;
+}
+
+.work-cercle2 {
+    position: absolute;
+    width: 300px;
+    right: 0px;
+    bottom: 7%;
+    z-index: -1;
+}
+
+
+/* ================================ How Work End  ====================================*/
+
+
+
+/* ================================ Fixed Background Start ================================ */
+
+
+
+.experience {
+    background-image: url('./img/experience.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #ffffff;
+    padding: 100px 300px;
+    margin: 100px 0;
+    width: 100%;
+}
+
+.get {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid #d12bec;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.get:hover {
+    color: #ffffff !important;
+}
+
+.get::before {
+    border-radius: 50px 50px 0 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.get:hover::before {
+    width: 0;
+}
+
+.get::after {
+    border-radius: 0 0 50px 50px;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+.get:hover::after {
+    width: 0;
+}
+
+
+
+/* ================================ Fixed Background End ================================ */
+
+
+
+/* ================================ Blog Section Start ================================= */
+
+
+.blog {
+    margin: 100px 0;
+    padding: 100px 0;
+    background: linear-gradient( 67.94deg, #030b20 -2.93%, #0d0d2a 44.88%, #230d2b 99.07%, #d12bec 148.49%);
+}
+
+.blog h5 {
+    color: #d12bec;
+    margin-bottom: 16px;
+}
+
+.blog h2 {
+    color: #ffffff;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 15px 20px 25px 20px;
+    width: 100%;
+}
+
+.blog .card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.3s ease;
+}
+
+.card:hover.card img {
+    transform: scale(1.05) rotate(2deg);
+    opacity: 0.8;
+}
+
+.card i {
+    font-size: 22px;
+    color: #000000;
+}
+
+.card a {
+    color: #000000;
+}
+
+.card h4 {
+    color: #000000;
+}
+
+.card p {
+    color: #000000;
+    margin: 20px 0 10px 0;
+}
+
+.card a:nth-child(5) {
+    color: #d12bec;
+}
+
+.card a:nth-child(5):hover {
+    color: #00a5cf;
+}
+
+
+/* ================================ Blog Section end ================================= */
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
