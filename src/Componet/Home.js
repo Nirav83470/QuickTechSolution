@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import crical from "./img/header_cercle.png";
+import icons8 from "./img/icons8-software.png";
 import imgpngone from "./img/imgdata1.png";
 import bannercards1 from "./img/bannercard1.png";
 import { AiOutlineRight } from "react-icons/ai";
@@ -28,11 +29,10 @@ const Home = () => {
             <div className="row d-flex align-items-center gap-md-0 gap-sm-4 gap-4">
               <div className="col-lg-6 col-md-6 d-flex flex-column align-items-md-start align-items-sm-center align-items-center justify-content-center gap-md-4 gap-sm-3 gap-3">
                 <h1>
-                  Protect your website with the power of QuickTech Solution.
+                Software Outsourcing Company in India
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                QuickTech Solution is the leading software outsourcing company which gives best services and solutions which placed in India. We love to solve your business problems using technology. At QuickTech Solution, we have made it our mission to be known as the one-stop solution for your software development needs, irrespective of your business and size type. We are a full-stack custom software development company from India with 5+ years of experience and a team of 20+ developers delivering world-class software.
                 </p>
                 <Button>Learn more</Button>
               </div>
@@ -52,7 +52,7 @@ const Home = () => {
           <div className="container d-flex gap-lg-5 gap-md-4 gap-sm-5 gap-4 justify-content-between flex-md-row flex-sm-column flex-column align-items-center">
             <div>
               <figure>
-                <img src={bannercards1}></img>
+                <img src={require('./img/icons8-software.png')}></img>
               </figure>
               <h4>Cyber security</h4>
               <p>
@@ -561,6 +561,7 @@ const Home = () => {
 
 
       <Footer />
+
 
     </>
   );

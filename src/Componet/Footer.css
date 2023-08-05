@@ -1,3 +1,4 @@
+
 .ab-footer {
     margin-top: 100px;
 }
@@ -29,6 +30,7 @@ footer form input {
     color: #757575;
 }
 
+
 footer button {
     border-radius: 50px;
     border: 1.5px solid #d12bec;
@@ -37,6 +39,15 @@ footer button {
     overflow: hidden;
     background-color: #ffffff;
 }
+
+
+button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 16px 38px 16px 38px;
+}
+
 
 footer button::before {
     border-radius: 50px 50px 0 0;
@@ -127,7 +138,7 @@ footer .row p {
 
 footer .col-lg-5 span a {
     background: #000000;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     color: #ffffff;
     padding: 9px 9px !important;
 }
@@ -137,7 +148,7 @@ footer .col-lg-5 span a:first-child {
 }
 
 footer .col-lg-5 span a:nth-child(2) {
-    padding: 10px 11px 8px 11px !important;
+    padding: 10px 10px 8px 11px !important;
 }
 
 footer .col-lg-5 span a:nth-child(3) {

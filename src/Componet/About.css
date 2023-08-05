@@ -1,0 +1,17 @@
+.header_about {
+    background-image: url("../Componet/img/banner_about.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+
+.banner_about {
+    padding: 210px 0 0 0;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: #030b2080;
+    height: 430px;
+}
