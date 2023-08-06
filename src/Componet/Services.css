@@ -1,0 +1,106 @@
+/* ====== 3.1. hero section ====== */
+
+.services123{
+    background-image: url("../Componet/img/bannerZScds.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+
+
+
+
+.bannerservices {
+    padding: 210px 0 0 0;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 0 !important;
+    background-color: #030b2080;
+    height: 430px;
+    
+}
+
+
+
+
+/* ====== End of 3.1. hero section ====== */
+
+
+/* ====== 3.2. FAQ section ====== */
+
+.faq h5 {
+    color: #d12bec;
+}
+
+.faq h2 {
+    color: #000000;
+}
+
+.faq p {
+    color: #000000;
+}
+
+.faq img {
+    position: absolute;
+    width: 300px;
+    top: -45px;
+    z-index: -1;
+    right: 0;
+}
+
+div#accordionExample {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../Componet/img/sumsum.png");
+    transform: rotate(-180deg);
+    margin-top: -15px;
+}
+
+.accordion-button::after {
+    background-image: url("../Componet/img/sumsum.png");
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button {
+    background: #efefef;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 15px 18px 15px 25px;
+    color: #000000;
+    border-radius: 20px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 20px;
+}
+
+.accordion-item:first-of-type .accordion-button.collapsed {
+    border-radius: 20px;
+}
+
+.accordion-item {
+    border-radius: 20px;
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    border-radius: 20px !important;
+    color: #ffffff;
+}
+
+
+/* ====== End of 3.2. FAQ section ====== */
