@@ -1,0 +1,135 @@
+.header_contact {
+    background-image: url("../Componet/img/contact.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+
+.contact_page {
+    margin: 100px 0;
+}
+
+.mapouter {
+    position: relative;
+    width: 100%;
+    height: 535px;
+}
+
+.gmap_iframe {
+    width: 500px;
+    height: 535px;
+    border-radius: 40px;
+}
+
+.contact_page h2 {
+    color: #262626;
+}
+
+.contact_page p {
+    color: #2d2d2d;
+    margin: 10px 0 30px 0;
+}
+
+#contact-message {
+    display: none;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    color: white;
+    width: 50%;
+    height: 42%;
+    padding: 120px 0 120px 0;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.contact_page input,
+textarea {
+    background: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 30px;
+    width: 100%;
+    margin-bottom: 25px;
+    color: #d12bec;
+    padding: 16px;
+}
+
+.contact_page input:focus,
+textarea:focus {
+    outline: 1px solid #00a5cf;
+    color: #969696;
+}
+
+.contact_page form button {
+    border: 1.5px solid #00a5cf;
+    color: #00a5cf;
+    border-radius: 45px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.contact_page form button:hover {
+    color: #ffffff;
+}
+
+.contact_page form button::before {
+    border-radius: 50px 50px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.contact_page form button:hover::before {
+    width: 100%;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+
+.contact_page form button::after {
+    border-radius: 0 0 50px 50px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+.contact_page form button:hover::after {
+    width: 100%;
+    background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+
+.contact_page .contact-cercle1 {
+    position: absolute;
+    width: 300px;
+    top: -153px;
+    right: 0;
+    z-index: -1;
+}
+
+.contact_page .contact-cercle2 {
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    bottom: -50px;
+    right: 0;
+}
+
+
+/* ====== End of 6.2. Get In Touch With Us section ====== */
